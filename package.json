@@ -1,0 +1,19 @@
+{
+  "name": "Curves",
+  "version": "1.0.0",
+  "description": "Visualizing the easing functions of the eases npm package",
+  "main": "index.html",
+  "scripts": {
+    "//": "windows/linux users will have open change the start command",
+    "start": "open index.html",
+    "build": "webpack script-src.js script.js",
+    "watch": "webpack --watch script-src.js script.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "eases": "^1.0.6",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
+}
